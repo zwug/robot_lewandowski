@@ -15,7 +15,7 @@ export const clearData = async (spreadsheetId: string) => {
     await googleSheets.spreadsheets.values.clear({
       auth,
       spreadsheetId,
-      range: "Футбол с Островком!FA10:FA200",
+      range: "Футбол с Островком!FB10:FB200",
     });
     console.log('The data is cleared');
   } catch (e) {
